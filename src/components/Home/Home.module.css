@@ -1,0 +1,179 @@
+.home {
+  background-image: url('/src/assets/Image/manage_playlist_bg.jpeg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 66vh;
+  background-color: black;
+  z-index: 10;
+  margin-top: 105px !important;
+  position: relative;
+  overflow: hidden;
+}
+
+.layout{
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+}
+
+.wish_title{
+  /* margin-top: 10px !important; */
+}
+
+@media (max-height: 560px) {
+  .home {
+   overflow: hidden; 
+  }
+  .wish_title{
+    margin-top: 40px !important;
+  }
+ 
+}
+
+@media (max-width: 480px) {
+  .layout{
+    padding-left: 1rem !important;
+  }
+  .btn_manage{
+    width: 250px !important;
+    font-size: 20px !important;
+  }
+  .wish_title{
+    margin-top: 65px !important;
+  }
+}
+.macaddres {
+  width: 31rem;
+  height: 22rem;
+  margin-left: auto;
+  margin-right: auto;
+  /* padding: 2rem; */
+}
+
+@media (max-width: 768px) {
+  .macaddres {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  input {
+    width: 100%;
+  }
+
+  button {
+    width: 100%;
+  }
+}
+
+input {
+  width: 26rem;
+  height: 2.5rem;
+}
+
+button {
+  width: 26rem;
+  height: 2.5rem;
+}
+
+#login-form {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.637) 43.5%, rgba(0, 0, 0, 0) 100%);
+}
+
+@media (max-width: 768px) {
+  /* .home {
+    background-size: contain;
+    height: auto;
+  } */
+}
+
+@media (max-width: 640px) {
+  Custom styles for mobile input {
+    width: 100%;
+  }
+
+  button {
+    width: 100%;
+  }
+}
+
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-50%);
+    /* Only move halfway because we have 2 sets of images */
+  }
+}
+
+.marqueeWrapper {
+  width: 100%;
+  overflow: hidden;
+}
+
+.marqueeContent {
+  display: flex;
+  gap: 2rem;
+  animation: marquee 30s linear infinite;
+  /* Adjust speed as needed */
+  width: max-content;
+}
+
+.poster {
+  background-image: url("/src/assets/Image/tv_mock.png");
+}
+
+@media (max-width: 640px) {
+  .poster {
+    background-size: cover !important;
+    background-position: center !important;
+    height: 57vh !important;
+  }
+
+  .form{
+    margin-left: auto;
+  margin-right: auto;
+  }
+}
+
+
+/* Mobile Screens (Small) */
+@media (max-width: 767px) {
+  header {
+    margin-top: 0px !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .wish_responive {
+    margin-top: 90px !important;
+    height: 35vh !important;
+  }
+}
+
+.managePlaylist_title {
+  margin-top: 2rem !important;
+}
+
+@media (max-width: 767px) {
+  .managePlaylist_title {
+    margin-top: 56px !important;
+  }
+}
+
+@media (max-width: 767px) {
+  /* .wish_title {
+    font-size: 22px !important;
+  } */
+
+}
+
+.slider_section {
+  direction: ltr !important;
+}
+.login_btn{
+  background-color: #D8A529;
+}

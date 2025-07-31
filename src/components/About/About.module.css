@@ -1,0 +1,25 @@
+.wishtv_text{
+   color: #FF9D03;
+}
+
+
+@media (max-width: 480px) {
+   .first_img{
+      margin-top: 1.7rem !important;
+   }
+
+   .first_img img,
+   .second_img img{
+      width: 95%;
+      margin: 0 auto;
+   }
+
+   .about_two{
+      padding-top: 0rem !important;
+      padding-bottom: 0.8rem !important;
+   }
+
+   .second_img{
+      margin-bottom: 1rem;
+   }
+ }
