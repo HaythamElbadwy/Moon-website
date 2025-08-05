@@ -10,23 +10,23 @@ export default function Contact() {
     useEffect(() => {},[])
     return (
       <>
-<section className="min-h-screen relative flex items-center justify-center z-10" id='contact'>
+<section className="min-h-screen relative flex items-center justify-center z-10 bg-[#E7E7E7]" id='contact'>
   {/* Background Image with Blur */}
   
-  <div
+  {/* <div
     className="absolute inset-0 bg-cover bg-center"
     style={{
       backgroundImage: `url(${contactUs})`, // Replace with your background image URL or variable
       filter: 'blur(4px)', // Apply the blur effect here
       zIndex: '-1', // Ensure the background is behind the content
     }}
-  ></div>
+  ></div> */}
 
   {/* Translucent Overlay */}
-  <div className="absolute inset-0 bg-black opacity-60"></div>
+  <div className="absolute bg-black opacity-60"></div>
 
   {/* Contact Form */}
-  <div className="relative bg-[#00000071]  shadow-lg rounded-lg p-8 w-full max-w-md">
+  <div className="relative bg-[#000000]  shadow-lg rounded-lg p-8 w-full max-w-md">
   <h1 className=" z-50 text-2xl text-center font-bold text-white mb-6">
       {langValue['ContactUs']}
     </h1>
